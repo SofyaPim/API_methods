@@ -1,0 +1,34 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+}
+
+body{
+   background: #e6e6e6;
+   padding: 1vmin;
+   font-family: "Open Sans", sans-serif;
+}
+h1{
+   padding:3vmin 2vmin;
+   font-size:  clamp(20px, 2vw, 32px);
+  
+}
+h3{
+   
+   font-size:  clamp(18px, 2vw, 24px);
+  
+}
+p{
+   font-size:  clamp(14px, 2vw, 18px);
+}
+.post-item{
+   background: transparent;
+      box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 2vmin;
+  padding: 4px 3vmin 2vmin;
+ margin-bottom: 2vmin;
+   /* background: #e6e6e6; */
+}
